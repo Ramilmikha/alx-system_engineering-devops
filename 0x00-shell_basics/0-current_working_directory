@@ -1,2 +1,3 @@
 #!/bin/bash
-/tmp/correction/6511998704915932936036071070124972897155_5/205/525342/0x00-shell_basics
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+echo "$script_dir"
