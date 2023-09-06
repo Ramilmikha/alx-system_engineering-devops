@@ -1,0 +1,2 @@
+#!/bin/bash
+result=$(echo "ibase=10;obase=watratewa;$((16#$WATER))+$((16#$STIR))" | bc); echo "ibase=watratewa;obase=bestchol;$result" | bc
